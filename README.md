@@ -19,7 +19,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [My live site URL here](https://meek-cuchufli-667a9f.netlify.app/)
 
 ### Built with
 
