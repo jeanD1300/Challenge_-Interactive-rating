@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  font-family: "Overpass", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card {
+  /* display: none; */
+  background-color: hsl(213, 19%, 18%);
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+.content {
+  margin: 25px;
+}
+.star {
+  display: flex;
+  background-color: hsl(212, 22%, 23%);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 0px solid #fff;
+  justify-content: center;
+  align-items: center;
+}
+.star img {
+  width: 15px;
+  height: 15px;
+}
+.info {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.info p {
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+  margin-top: 10px;
+  line-height: 23px;
+}
+.rating {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.state {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: hsl(212, 22%, 23%);
+  border: none;
+  color: hsl(217, 12%, 63%);
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.state:focus {
+  background-color:hsl(217, 12%, 63%);
+  color: white;
+}
+.state:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.submit {
+  margin-top: 20px;
+  width: 100%;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+  transition: background-color 0.6s;
+}
+
+.cardThankyou {
+  background-color: hsl(213, 19%, 18%);
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.imgThank {
+  margin-top: 40px;
+}
+
+.score {
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 45%;
+  height: 27px;
+  text-align: center;
+  padding-top: 4px;
+  background-color: hsl(212, 22%, 23%);
+  color: hsl(25, 97%, 53%, 0.7);
+  font-size: 15px;
+}
+.statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+.statement h1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.statement p {
+  margin-top: 10px;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  width: 85%;
+  font-weight: 400;
+}
+#back {
+  margin-top: 5px;
+  color: hsl(25, 97%, 53%, 0.6);
+  font-size: 1.5rem;
+  display: flex;
+  margin-right: 300px;
+}
+#back:hover {
+  color:hsl(0, 0%, 100%,0.6) ;
+}
+@media screen and (max-width: 600px) {
+  .card, .cardThankyou {
+width: 80%;
+height: 370px
+
+  }
+  
+}
